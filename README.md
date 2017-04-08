@@ -11,7 +11,7 @@ a template script.
  
  Standard Options
 
- -l, --login      Remote host login
+  -l, --login      Remote host login
       --user       SSH proxy user [local username]
       --cluster    Specify the cluster to connect
       --proxy      SSH proxy host or IP address
@@ -51,7 +51,7 @@ a template script.
   Other
       --dryrun     Dry run
                    Show node selection and expand parse template for each node, but don't actually run remote commands.
- 
+      --delay      Delay in seconds between commands [default=1]
 
 ```
 
